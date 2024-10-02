@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navv{
+    background-image: url("picture/navpict.png");
+    padding: 10px;
+    size: 28px;
+}
+
+.header {
+    justify-content: space-between;
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover{
+    color:rgb(77, 106, 202) ;
+    
+}
+
+a:hover::before{
+    color:rgb(100, 70, 155) ;
+}
+
+ a {
+    text-decoration: none;
+ }
+.nav button{
+background-color: aliceblue;
+color: #1A3E3E;
+margin: 10px;
+padding: 10px;
+border-radius: 6px;
+border: 0px;
+}
+.nav {
+margin: 9px;
+padding: 8px;
+size: 28px;
+}
