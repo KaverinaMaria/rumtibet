@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navv {
+    background-image: url("picture/navpict.png");
+    padding: 10px;
+    size: 28px;
+    background-size: cover;
+    min-height: 100vh;
+    width: 1920px;
+    
+}
+
+.header {
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 1920px;
+}
+
+.navv p {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+    padding: 20px 130px;
+}
+
+a:hover {
+    color: rgb(77, 106, 202);
+}
+
+a:hover::before {
+    color: rgb(100, 70, 155);
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav {
+    margin: 10px;
+    padding: 30px 50px;
+    size: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+.navv button {
+    background-color: #1A3E3E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chooset {
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    width: 70%;
+    opacity: .5;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+.chooset .choosetour{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.chooset .content {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.chooset>* {
+    width: 270px;
+    height: 52px;
+    gap: 8px;
+    display: inline-block;
+}
+@media (max-width: 320px) {
+    .navproduction {
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 140px;
+    }
+
+    .production {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navfooter {
+        max-width: 100%;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 1440px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .image {
+        width: 50%;
+    }
+}
+
+@media (max-width: 786px) {
+    .image {
+        width: 100%;
+    }
+
+    .text {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .button {
+        padding: 8px 12px;
+    }
+}
